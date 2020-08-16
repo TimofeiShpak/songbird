@@ -14,11 +14,9 @@ function InfoBird({birds}) {
                 <div className='basic-content'>
                     <img src={birds.image} alt={`изображение птицы ${birds.name}`} className='game-img'/>
                     <ul className='names-bird'>   
-                        <h4 className="name">{birds.name}</h4>
+                        <h5 className="name info-name">{birds.name}</h5>
                         <h6 className="name">{birds.species}</h6>
-                    </ul> 
-                </div>
-                <div className='player-wrapper player-info'>
+                        <div className=''>
                             <AudioPlayer
                                 showJumpControls={false}
                                 autoPlayAfterSrcChange={false}
@@ -29,6 +27,9 @@ function InfoBird({birds}) {
                                 defaultDuration=''
                             />
                         </div>
+                    </ul> 
+                </div>
+                <div>{ birds.description }</div>
             </div>
     )  
 }

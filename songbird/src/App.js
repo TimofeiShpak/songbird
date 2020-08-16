@@ -1,5 +1,4 @@
 import 'bootstrap-4-react';
-import './App.css';
 import './style.css';
 import React, { useState, useEffect } from 'react';
 import Header from './header';
