@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/src/styles.scss';
-import imgBird from './bird.jpg';
+import imgBird from './image/bird.jpg';
 
 function Player({birds, isPlayed}) {
     const playerRef = useRef(null);

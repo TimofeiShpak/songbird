@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import success from './success.jpg';
+import success from './image/success.jpg';
 
 function GameOver({setEndGame, setFullScore, fullScore, setRandomNumbers, random, level}) {
     useEffect(() => {
