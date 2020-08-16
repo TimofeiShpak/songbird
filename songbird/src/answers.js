@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import correctAudio from './correct.mp3';
-import errorAudio from './error.mp3';
+import correctAudio from './audio/correct.mp3';
+import errorAudio from './audio/error.mp3';
 import InfoBirds from './infoBird';
 
 function Answer(props) {
